@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Fundamentos previos para el muestreo de agua de consumo humano',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> aplicar los fundamentos prácticos y normativos necesarios para realizar un muestreo adecuado de agua destinada al consumo humano, garantizando la representatividad y la calidad de las muestras recolectadas.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
@@ -28,28 +28,29 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es uno de los objetivos principales de un plan de muestreo de agua?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Determinar la temperatura del agua.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Establecer la frecuencia de consumo humano.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Determinar características físicas, químicas y microbiológicas del agua.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Clasificar tipos de aguas residuales.',
               esCorrecta: false,
             },
           ],
@@ -59,29 +60,29 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Qué documento establece criterios para seleccionar los lugares de recolección de muestras en sistemas de distribución?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Resolución 2115 de 2007.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Guía Técnica Colombiana GTC 045.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Manual INS 2011.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'NTC-ISO 5667-5:2008.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -89,28 +90,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            '¿Cuál de los siguientes equipos permite medir el pH y la temperatura del agua simultáneamente?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Conductivímetro.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'pHmetro con sensor de temperatura.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Turbidímetro.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Colorímetro.',
               esCorrecta: false,
             },
           ],
@@ -120,28 +122,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿Qué material se recomienda para la toma de muestras destinadas a análisis microbiológicos?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Bolsas estériles con tiosulfato de sodio.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Frascos plásticos transparentes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Botellas de agua comercial.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Frascos de vidrio.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +152,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            '¿Cuál es el rango de pH permitido para el agua potable según la normatividad vigente?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '5,5 – 7,0.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '6,0 – 7,5.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: '6,5 – 9,0.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '7,0 – 9,5.',
               esCorrecta: false,
             },
           ],
@@ -181,28 +184,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el parámetro que indica la cantidad de sólidos en suspensión en el agua?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Cloro residual libre.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Turbidez.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Conductividad.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Oxígeno disuelto.',
               esCorrecta: false,
             },
           ],
@@ -212,29 +215,29 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Cuál es la función del gel refrigerante durante el transporte de muestras?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Proteger contra luz solar directa.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Medir temperatura del ambiente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Aumentar la turbidez.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Conservar la cadena de frío.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -243,28 +246,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿Qué parámetro debe medirse inmediatamente tras la toma de muestra por su volatilidad y fotosensibilidad?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'pH.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Oxígeno disuelto.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Cloro residual libre.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Conductividad.',
               esCorrecta: false,
             },
           ],
@@ -274,19 +277,29 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Qué documento establece los peligros químicos, físicos y biológicos en laboratorios?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'NTC-ISO 5667-5.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'GTC 045 de ICONTEC.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Resolución 2115 de 2007.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Manual del IDEAM.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -295,18 +308,28 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Cuál de los siguientes elementos de protección personal debe usarse obligatoriamente en el laboratorio?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Sombrero.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Lentes de contacto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Gafas de seguridad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Sandalias.',
               esCorrecta: false,
             },
           ],
@@ -316,19 +339,19 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            'Las buenas prácticas de laboratorio contribuyen a la contaminación de las muestras.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Falso.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Verdadero.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -337,19 +360,19 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'El cloro residual libre debe medirse varias veces al día en plantas de tratamiento.',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Falso.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
+              texto: 'Verdadero.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -357,19 +380,18 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'El agua destilada es conductora de la electricidad.',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Falso.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Verdadero.',
               esCorrecta: false,
             },
           ],
@@ -379,18 +401,18 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            'La bata de laboratorio debe ser preferiblemente de material impermeable o antifluidos.',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Falso.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Verdadero.',
               esCorrecta: true,
             },
           ],
@@ -400,18 +422,18 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'Las gafas de seguridad no son necesarias si el operario usa lentes de contacto.',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Falso.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Verdadero.',
               esCorrecta: false,
             },
           ],

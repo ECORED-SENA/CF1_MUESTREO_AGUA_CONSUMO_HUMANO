@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 10%
+    right: 75%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 71%
+    right: 50%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 41%
+    right: 10%
 
 @keyframes float1
   0%
@@ -18,15 +23,318 @@
   
 .banner-principal .tarjeta
   background-position: left 50% !important
+  @media screen and ( max-width: $bp-max-lg )
+    background-image: url("../assets/curso/portada/fondo-banner-principal-tb.png") !important
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-mv.png") !important
 
 .banner-principal__row .banner-principal__img
   width: 400px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: black !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
 
 figcaption
   font-weight: normal
+
+.bg
+  &-c3 
+    background-color: #FD9826
+    background-repeat: repeat-x
+    background-position: center center // centro horizontal y vertical
+    height: 36px
+    display: flex
+    align-items: center
+    justify-content: center 
+
+    @media screen and (max-width: $bp-max-sm)
+      background-repeat: repeat
+      background-position: center top 
+      height: auto
+  &-1 
+    background-image: url(../assets/curso/intro/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-2
+    background-color: #FDF6EB
+  &-3
+    background-image: url(../assets/curso/tema1/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-4
+    background-color: #E8F7FF
+  &-5
+    background-color: #FDE4CF
+  &-6
+    background-image: url(../assets/curso/tema1/bg2.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-7
+    background-image: url(../assets/curso/tema1/bg3.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-8
+    background-image: url(../assets/curso/tema2/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-9
+    background-image: url(../assets/curso/tema3/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-10 
+    background-color: #D0E0FD
+  &-11
+    background-color: #FAE9CC
+    height: 188px
+  &-12 
+    background-color: #E7EFFE
+  &-13
+    background-color: #D2EFFE
+  &-14
+    background-image: url(../assets/curso/tema4/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-15
+    background-color: #FDF6EB !important
+  
+
+.titulo-tres
+  margin-bottom: 1.5rem
+  h3
+    margin-left: 2rem
+    margin-right: 1rem
+    margin-bottom: 0
+  background-color: $color-acento-contenido
+  display: inline-block
+  padding: 0.5rem 1rem
+  border-radius: 0.5rem
+  position: relative
+  &::before
+    content: url('../assets/curso/tema1/icon1.svg')
+    position: absolute
+    top: 0
+    left: 0
+    transform: translate(-50%, -15%)
+    width: 64px
+
+
+// Carousel Styles
+.carousel-bg .fas
+ &.fa-chevron-left, &.fa-chevron-right
+   display: inline-flex
+   align-items: center
+   justify-content: center
+   width: 40px
+   height: 40px
+   background-color: $color-acento-botones
+   border-radius: 50%
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+   color: #000
+   font-size: 16px
+   @media screen and (max-width: $bp-max-lg)
+    width: 30px
+    height: 30px
+
+// Slider Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+ .slyder-f
+   &__main
+     width: 76%
+   &__btn
+     width: 12%
+
+@media screen and (max-width: $bp-max-xs)
+ .slyder-f
+   &__main
+     width: 60%
+   &__btn
+     width: 20%
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #FDF6EB !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+////////
+
+.tarjeta--slyder  
+  height: 100%
+  background-color: white
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem 
+
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+
+.lista-ul--color li > i:first-of-type 
+    color: #5B39A6 !important
+
+///// SLyder A tipo B Custom --------------------------------------
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #FED401
+  @media screen and (max-width: $bp-max-lg)
+    width: 30px
+    height: 30px
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #FED401
+  @media screen and (max-width: $bp-max-lg)
+    width: 30px
+    height: 30px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs  
+  border: none
+
+.slyder-a__bullets__item--active
+  background-color: #FD9826 !important
+  border: none
+
+.slyder-a__bullets__item
+  background-color: #FD9826
+
+  
+.lista-ul--color li > i:first-of-type 
+  color: #6296B1 !important
+
+.m-20
+  margin-top: -20px
+
+.div-con-imagen 
+  position: relative
+  padding-left: 50px
+
+.bg-box-contenido
+  background-color: #fef8f1
+  border-radius: 12px
+  padding: 1.5rem
+  padding-left: 3.5rem
+
+.imagen-circular 
+  position: absolute
+  top: 50%
+  left: 0
+  transform: translateY(-50%)
+
+  img 
+    width: 80px
+    height: 80px
+    object-fit: cover
+    border-radius: 50%
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+    
+.h-4 
+  height: auto
+
+  @media (min-width: 992px) 
+    height: 186px
