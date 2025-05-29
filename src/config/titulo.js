@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Aspectos previos al muestreo de agua para consumo humano'
