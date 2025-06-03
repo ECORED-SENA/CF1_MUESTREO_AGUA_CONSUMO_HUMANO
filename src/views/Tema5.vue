@@ -17,7 +17,7 @@
         p.mb-0 Estas mediciones suelen realizarse con equipos portátiles, como sondas multiparamétricas, pH-metros y conductímetros. Es fundamental que estas pruebas se lleven a cabo siguiendo las indicaciones correspondientes sobre la revisión y calibración de los equipos utilizados. 
 
     p.mt-4
-      b Entre los principales parámetros para análisis in situ se encuentran: 
+      b Entre los principales parámetros para análisis #[i in situ] se encuentran: 
 
     .titulo-tres.mt-4: h3 Oxígeno disuelto
 
@@ -38,7 +38,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img3.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La medición de la temperatura debe realizarse in situ, ya que no es posible aplicar procedimientos de preservación o almacenamiento para este parámetro. El método más adecuado consiste en introducir directamente los equipos de medición —como termómetros o sondas— en la muestra de agua o en la fuente de abastecimiento del acueducto. 
+        p.mb-0 La medición de la temperatura debe realizarse #[i in situ], ya que no es posible aplicar procedimientos de preservación o almacenamiento para este parámetro. El método más adecuado consiste en introducir directamente los equipos de medición —como termómetros o sondas— en la muestra de agua o en la fuente de abastecimiento del acueducto. 
     
 
     p.mt-4 Este parámetro puede determinarse de forma sencilla y precisa mediante sensores que operan con base en el cambio de resistencia de un resistor metálico. La termometría de resistencia se fundamenta en las variaciones que se presentan en la resistencia eléctrica de materiales conductores o semiconductores metálicos cuando se exponen a diferentes temperaturas. 
@@ -64,16 +64,16 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 En el marco del control de calidad y la vigilancia del agua potable, el pH debe medirse diariamente en el sistema de abastecimiento. Es especialmente relevante su monitoreo tanto a la entrada del sistema como en distintos puntos de la red de distribución. El método más común para determinar este parámetro es mediante una celda electroquímica, la cual emplea un electrodo indicador sensible a la concentración de protones. Esta medición se realiza con un dispositivo conocido como pH-metro. 
 
-    .titulo-tres.mt-4: h3 Turbiedad    
+    .titulo-tres.mt-4: h3 Turbidez    
 
-    p.mt-4 La turbidez del agua es provocada por la materia insoluble, en suspensión o dispersión coloidal. Es un fenómeno óptico que consiste esencialmente en una absorción de luz combinado con un proceso de difusión. 
+    p.mt-4 La turbidez del agua es provocada por la materia insoluble, en suspensión o dispersión coloidal. Es un fenómeno óptico que consiste esencialmente en una absorción de luz combinada con un proceso de difusión. 
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-4(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img6.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La turbiedad para el agua potable no debe superar las 2 unidades de turbiedad según los establecido en la resolución 2115 de 2007, es importante que al momento de iniciar con el proceso de desinfección se haya removido la turbiedad, ya que de esta forma se evita la formación partículas que pueden ser dañinas para la salud humana.   
+        p.mb-0 La turbiedad para el agua potable no debe superar las 2 unidades de turbiedad según lo establecido en la resolución 2115 de 2007. Es importante que, al momento de iniciar con el proceso de desinfección, se haya removido la turbiedad, ya que de esta forma se evita la formación de partículas que pueden ser dañinas para la salud humana.   
 
     .titulo-tres.mt-4: h3 Cloro residual libre    
 

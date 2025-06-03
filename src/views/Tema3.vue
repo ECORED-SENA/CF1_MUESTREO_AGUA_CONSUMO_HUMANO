@@ -10,7 +10,7 @@
     .row.bg-9.mt-4.m-20
       .col-12
         .p-5
-          p Las buenas prácticas de laboratorio (BPL) se definen como un conjunto de reglas, procedimientos operativos y operacionales establecidos por la Organization for Economic Cooperation and Development (OCDE). Estas prácticas son obligatorias para garantizar la calidad e integridad de los datos generados en los procesos de laboratorio, con el propósito de armonizar los protocolos, la información y la documentación asociada a los procedimientos operativos. 
+          p Las buenas prácticas de laboratorio (BPL) se definen como un conjunto de reglas, procedimientos operativos y operacionales establecidos por la #[i Organization for Economic Cooperation and Development] (OCDE). Estas prácticas son obligatorias para garantizar la calidad e integridad de los datos generados en los procesos de laboratorio, con el propósito de armonizar los protocolos, la información y la documentación asociada a los procedimientos operativos. 
 
           .row.justify-content-center.align-items-center
             .col-lg-8
@@ -192,7 +192,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img15.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Adicionalmente, el instructor debe realizar un recorrido por las instalaciones con el grupo, señalando la ubicación y función de los dispositivos de seguridad, tales como: salidas de emergencia, rutas de evacuación, extintores, botiquines de primeros auxilios, duchas de emergencia y fuentes lavaojos. 
+        p.mb-0 Adicionalmente, el instructor debe realizar un recorrido por las instalaciones con el grupo, señalando la ubicación y función de los dispositivos de seguridad, tales como salidas de emergencia, rutas de evacuación, extintores, botiquines de primeros auxilios, duchas de emergencia y fuentes lavaojos. 
 
     p.mt-4 Antes de iniciar cualquier práctica de campo o de laboratorio, el instructor deberá socializar las normas específicas de seguridad correspondientes a cada actividad. 
 
@@ -200,22 +200,22 @@
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 Peligros en salud y seguridad en el trabajo
 
-    p Las sustancias químicas pueden causar daño si no son manipuladas de forma adecuada y según protocolos, lo más importante por resaltar es que estas sustancias tienen diferentes características (tóxicas, inflamables, corrosivas y reactivas) y debe reconocerlas y saber cómo reaccionar en caso de accidentes. 
+    p Las sustancias químicas pueden causar daño si no son manipuladas de forma adecuada y según protocolos. Lo más importante por resaltar es que estas sustancias tienen diferentes características (tóxicas, inflamables, corrosivas y reactivas) y debe reconocerlas y saber cómo reaccionar en caso de accidentes. 
 
     .bloque-texto-g.bg-5.p-3.p-sm-4.p-md-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img16.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Sin embargo, existen sustancias que cuentan con más de un peligro, por lo cual se considera que el grado de peligrosidad de las sustancias químicas puede variar, por ello siempre trabajar de forma segura es la manera correcta de desarrollar actividades con estos implementos. 
+        p.mb-0 Sin embargo, existen sustancias que cuentan con más de un peligro, por lo cual se considera que el grado de peligrosidad de las sustancias químicas puede variar; por ello siempre trabajar de forma segura es la manera correcta de desarrollar actividades con estos implementos. 
 
 
     .row.mt-4
       .col-lg-8
         .row.p-4.bg-12.align-items-center
-          p Se recomienda ampliar la información en sesiones en línea con su instructor y con el material de apoyo, pero se dejan las siguientes acciones como tips necesarios para contrarrestar los peligros químicos:  
+          p Se recomienda ampliar la información en sesiones en línea con su instructor y con el material de apoyo, pero se dejan las siguientes acciones como tips necesarios para contrarrestar los peligros químicos:  z
 
-          p Según la Guía Técnica Colombiana 045 de identificación de peligros y valoración de riesgos en seguridad y salud ocupacional, entre los peligros que están asociados a las actividades de muestreo y manipulación de sustancias químicas en laboratorios están las siguientes (ICONTEC, 2012):  
+          p Según la Guía Técnica Colombiana 045 de identificación de peligros y valoración de riesgos en seguridad y salud ocupacional, entre los peligros que están asociados a las actividades de muestreo y manipulación de sustancias químicas en laboratorios están los siguientes (ICONTEC, 2012):  
       .col-lg-4.d-lg-block.d-none 
         figure
           img(src='@/assets/curso/tema3/img17.png', alt='', style="width: 400px").m-auto

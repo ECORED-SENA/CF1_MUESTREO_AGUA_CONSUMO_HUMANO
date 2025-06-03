@@ -120,7 +120,7 @@
                 .div-con-imagen
                   .bg-box-contenido.h-4
                     p.d-block.mb-1 #[b Cryptosporidium]
-                    p.mb-0 Parásitoprotozoario que se localiza en el instestino delgado de humanos y animales,genera infección que provoca diarrea acuosa severa, además de otros síntomasque pueden llevar a la desnutrición. (INS, 2018, p. 7).
+                    p.mb-0 Parásitoprotozoario que se localiza en el intestino delgado de humanos y animales, genera infección que provoca diarrea acuosa severa, además de otros síntomas que pueden llevar a la desnutrición. (INS, 2018, p. 7).
                   .imagen-circular
                     figure.mb-0
                       img(src='@/assets/curso/tema4/img11.png', alt='')

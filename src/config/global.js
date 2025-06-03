@@ -161,7 +161,7 @@ export default {
         'https://www.acs.org/content/dam/acsorg/about/governance/committees/chemicalsafety/publications/seguridad-en-los-laboratorios-quu00edmicos-acadu00e9mico.pdf',
     },
     {
-      tema: 'Ensayos in situ',
+      tema: 'Ensayos <em>in situ</em>',
       referencia:
         'Instituto Nacional de Salud INS. (2011). Manual de instrucciones para la toma, preservación y transporte de muestras de agua de consumo humano para análisis de laboratorio.',
       tipo: 'Manual',
@@ -204,15 +204,15 @@ export default {
     },
     {
       referencia:
-        'CMLAB. (2021). <em>Bolsa estéril para toma de muestras líquidas o sólidas – 7 oz (207 ml)</em>. <a href=" target="_new">https://www.cmlab.com.co/producto/bolsa-esteril-para-toma-de-muestras-liquidas-o-solidas-7-oz-207-ml/</a>',
+        'CMLAB. (2021). <em>Bolsa estéril para toma de muestras líquidas o sólidas – 7 oz (207 ml)</em>.',
       link:
-        'https://www.cmlab.com.co/producto/bolsa-esteril-para-toma-de-muestras-liquidas-o-solidas-7-oz-207-ml/"',
+        'https://www.cmlab.com.co/producto/bolsa-esteril-para-toma-de-muestras-liquidas-o-solidas-7-oz-207-ml/',
     },
     {
       referencia:
-        'Hach. (2025). <em>Bolsa de muestras, estéril con agente declorador, 100 mL, 100 unidades</em>. <a href=" target="_new">https://es.hach.com/bolsa-de-muestras-esteril-con-agente-declorador-100-ml-100-unidades/product?id=24761062939</a>',
+        'Hach. (2025). <em>Bolsa de muestras, estéril con agente declorador, 100 mL, 100 unidades</em>.',
       link:
-        'https://es.hach.com/bolsa-de-muestras-esteril-con-agente-declorador-100-ml-100-unidades/product?id=24761062939"',
+        'https://es.hach.com/bolsa-de-muestras-esteril-con-agente-declorador-100-ml-100-unidades/product?id=24761062939',
     },
     {
       referencia:
@@ -231,21 +231,21 @@ export default {
     },
     {
       referencia:
-        'Instituto Nacional de Salud (INS). (2011). <em>Manual de instrucciones para la toma, preservación y transporte de muestras de agua de consumo humano para análisis de laboratorio</em>. <a href=" target="_new">https://www.ins.gov.co/BibliotecaDigital/Manual-toma-muestras-agua.pdf</a>',
+        'Instituto Nacional de Salud (INS). (2011). <em>Manual de instrucciones para la toma, preservación y transporte de muestras de agua de consumo humano para análisis de laboratorio</em>.',
       link:
-        'https://www.ins.gov.co/BibliotecaDigital/Manual-toma-muestras-agua.pdf"',
+        'https://www.ins.gov.co/BibliotecaDigital/Manual-toma-muestras-agua.pdf',
     },
     {
       referencia:
-        'Instituto Nacional de Salud (INS). (2018). <em>Guía para la vigilancia por laboratorio de Giardia y Cryptosporidium en muestras de agua</em>. <a href=" target="_new">https://www.ins.gov.co/BibliotecaDigital/guia-para-la-vigilancia-por-laboratorio-de-giardia-y-cryptosporidium-en-muestras-de-agua.pdf</a>',
+        'Instituto Nacional de Salud (INS). (2018). <em>Guía para la vigilancia por laboratorio de Giardia y Cryptosporidium en muestras de agua</em>.',
       link:
-        'https://www.ins.gov.co/BibliotecaDigital/guia-para-la-vigilancia-por-laboratorio-de-giardia-y-cryptosporidium-en-muestras-de-agua.pdf"',
+        'https://www.ins.gov.co/BibliotecaDigital/guia-para-la-vigilancia-por-laboratorio-de-giardia-y-cryptosporidium-en-muestras-de-agua.pdf',
     },
     {
       referencia:
-        'Instituto Nacional de Salud (INS). (2020). <em>Guía de laboratorio para la vigilancia y control de calidad bacteriológico en muestras de agua para consumo humano</em>. <a href=" target="_new">https://www.ins.gov.co/BibliotecaDigital/guia-para-la-vigilancia-y-control-de-calidad-bacteriologico-en-muestras-de-agua-para-consumo-humano.pdf</a>',
+        'Instituto Nacional de Salud (INS). (2020). <em>Guía de laboratorio para la vigilancia y control de calidad bacteriológico en muestras de agua para consumo humano</em>.',
       link:
-        'https://www.ins.gov.co/BibliotecaDigital/guia-para-la-vigilancia-y-control-de-calidad-bacteriologico-en-muestras-de-agua-para-consumo-humano.pdf"',
+        'https://www.ins.gov.co/BibliotecaDigital/guia-para-la-vigilancia-y-control-de-calidad-bacteriologico-en-muestras-de-agua-para-consumo-humano.pdf',
     },
     {
       referencia:
@@ -259,9 +259,9 @@ export default {
     },
     {
       referencia:
-        'Pakis Medical. (2020). <em>Termómetro digital KTJ TA358A para refrigeración</em>. <a href=" target="_new">https://www.pakismedical.com/termometro-ktj-con-sonda-para-refrigeracion-ta358a/</a>',
+        'Pakis Medical. (2020). <em>Termómetro digital KTJ TA358A para refrigeración</em>.',
       link:
-        'https://www.pakismedical.com/termometro-ktj-con-sonda-para-refrigeracion-ta358a/"',
+        'https://www.pakismedical.com/termometro-ktj-con-sonda-para-refrigeracion-ta358a/',
     },
     {
       referencia:
@@ -274,14 +274,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Olga Constanza Bermudez Jaimes',
+          cargo: 'Responsable de Línea de Producción Huila ',
+          centro: 'Dirección General ',
         },
       ],
     },
@@ -289,9 +289,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Deya Maritza Cortes Enríquez ',
+          cargo: 'Experta Temática',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
+        },
+        {
+          nombre: 'Paola Alexandra Moya ',
+          cargo: 'Evaluadora Instruccional ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
       ],
     },
@@ -299,19 +306,40 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julian Ramirez Benitez',
           cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Manuel Felipe Echavarría Orozco',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Alejandro Delgado Acosta ',
+          cargo: 'Intérprete Lenguaje de señas ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura ',
+          cargo: 'Intérprete Lenguaje de señas ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya ',
+          cargo: 'Animador y Productor Multimedia	 ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
+        },
+        {
+          nombre: 'Andrés Felipe Guevara Ariza ',
+          cargo: 'Locución ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
       ],
     },
@@ -319,14 +347,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández ',
+          cargo: 'Validador de Recursos Educativos Digitales ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jaime Hernán Tejada Llano ',
+          cargo: 'Validador de Recursos Educativos Digitales ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
+        },
+        {
+          nombre: 'Raúl Mosquera Serrano ',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez ',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
       ],
     },

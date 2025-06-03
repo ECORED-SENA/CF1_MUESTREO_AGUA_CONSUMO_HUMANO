@@ -113,7 +113,7 @@
           #t_1_2.titulo-segundo.color-acento-contenido
             h2 1.2 Personal 
 
-          p El personal encargado de la recolección de muestras de agua ya sea perteneciente a las Personas Prestadoras del servicio o a las Autoridades Sanitarias, debe cumplir con los requisitos establecidos en la Resolución 1570 de 2004 y el Decreto 1575 de 2007. Estos requisitos son: 
+          p El personal encargado de la recolección de muestras de agua, ya sea perteneciente a las personas prestadoras del servicio o a las Autoridades Sanitarias, debe cumplir con los requisitos establecidos en la Resolución 1570 de 2004 y el Decreto 1575 de 2007. Estos requisitos son: 
 
     .row.justify-content-center.m-20
       .col-lg-10
@@ -180,7 +180,7 @@
 
           .titulo-tres.mt-4: h3 Selección de lugares para la recolección de muestras 
 
-          p De acuerdo con lo establecido en la NTC-ISO 5667-5:2008, Directrices para el muestreo de agua potable de instalaciones de tratamiento y sistemas de distribución por tubería, los lugares destinados a la recolección de muestras deben seleccionarse según los siguientes criterios: 
+          p De acuerdo con lo establecido en la NTC-ISO 5667-5:2008, directrices para el muestreo de agua potable de instalaciones de tratamiento y sistemas de distribución por tubería, los lugares destinados a la recolección de muestras deben seleccionarse según los siguientes criterios: 
 
           .row.justify-content-center.mt-4
             .col-lg-10

@@ -13,7 +13,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Equipos
 
-    p Entre los principales equipos utilizados para el muestreo y el análisis in situ de los parámetros del agua para consumo humano, se destacan los siguientes: 
+    p Entre los principales equipos utilizados para el muestreo y el análisis #[i in situ] de los parámetros del agua para consumo humano, se destacan los siguientes: 
 
     .row.bg-8.mt-4
       .col-12
@@ -24,7 +24,7 @@
                 .row.justify-content-center.align-items-center.my-lg-4.p-4
                   .col-md-7.mb-4.mb-md-0
                     h4 pHmetro y sensor de temperatura 
-                    p Sensor utilizado en el método electroquímico para medir el pH de la muestra de agua, además cuenta con sonda para medir temperatura. 
+                    p Sensor utilizado en el método electroquímico para medir el pH de la muestra de agua; además, cuenta con sonda para medir temperatura. 
 
                   .col-md-5
                     figure
@@ -51,7 +51,7 @@
                 .row.justify-content-center.align-items-center.my-lg-4.p-4
                   .col-md-7.mb-4.mb-md-0
                     h4 Turbidímetro 
-                    p Equipo que permite medir la turbiedad del agua que ingresa a la planta de agua o para medir la turbiedad del agua potable, con el fin de verificar si cumple con el límite máximo permisible. Esté parámetro también puede ser medido en laboratorio. 
+                    p Equipo que permite medir la turbiedad del agua que ingresa a la planta de agua o para medir la turbiedad del agua potable, con el fin de verificar si cumple con el límite máximo permisible. esté parámetro también puede ser medido en laboratorio. 
 
                   .col-md-5
                     figure
@@ -60,7 +60,7 @@
                 .row.justify-content-center.align-items-center.my-lg-4.p-4
                   .col-md-7.mb-4.mb-md-0
                     h4 Conductivímetro 
-                    p Medidor de Conductividad eléctrica sólidos totales disueltos y temperatura con pantalla de 2 niveles, dos botones para todas las funciones.  
+                    p Medidor de conductividad eléctrica, sólidos totales disueltos y temperatura con pantalla de 2 niveles, dos botones para todas las funciones.  
 
                   .col-md-5
                     figure
@@ -129,7 +129,7 @@
                 .row.justify-content-center.align-items-center.my-lg-4.p-4
                   .col-md-7.mb-4.mb-md-0
                     h4 Gel refrigerante 
-                    p Permiten mantener la cadena de frio en las muestras de agua, como alternativa puede utilizarse hielo convencional, siempre y cuando se garantice que las muestras se almacenen bajo cadena de frío. 
+                    p Permiten mantener la cadena de frío en las muestras de agua: como alternativa puede utilizarse hielo convencional, siempre y cuando se garantice que las muestras se almacenen bajo cadena de frío. 
 
                   .col-md-5
                     figure
@@ -138,7 +138,7 @@
                 .row.justify-content-center.align-items-center.my-lg-4.p-4
                   .col-md-7.mb-4.mb-md-0
                     h4 Alcohol 
-                    p Para la toma de muestras el accesorio de descarga de agua debe desinfectarse, evitando de esta forma contaminación de la muestra o errores en el análisis de laboratorio.   
+                    p Para la toma de muestras, el accesorio de descarga de agua debe desinfectarse, evitando de esta forma contaminación de la muestra o errores en el análisis de laboratorio.   
 
                   .col-md-5
                     figure
