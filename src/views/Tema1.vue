@@ -95,7 +95,7 @@
                     .row.justify-content-center.mb-3
                       .col-8
                         img(src="@/assets/curso/tema1/img8.svg", alt='', style="width: 90px").m-auto
-                    p.text-center.mb-0 El establecimiento de límites permisibles, teniendo en cuenta normatividad aplicable a la región.
+                    p.text-center.mb-0 El establecimiento de límites permisibles, teniendo en cuenta la normatividad aplicable a la región.
 
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
@@ -153,29 +153,29 @@
           p La toma de muestras de agua para consumo humano puede llevarse a cabo en distintos puntos, definidos según el objetivo del monitoreo o en concertación con la autoridad sanitaria. Estos puntos incluyen: 
 
           .row.justify-content-center.mb-5
-            .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+            .col-md-6.col-lg-4.col-xl-3.mb-4.mb-xl-0
               .crd_hover_txt(data-aos="flip-left")
                 .crd_hover_txt--img
                   figure
-                    img(src="@/assets/curso/tema1/img12.svg", alt="alt")
+                    img(src="@/assets/curso/tema1/img18.png", alt="Grifos.")
 
-            .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+            .col-md-6.col-lg-4.col-xl-3.mb-4.mb-xl-0
               .crd_hover_txt(data-aos="flip-left")
                 .crd_hover_txt--img
                   figure
-                    img(src="@/assets/curso/tema1/img13.svg", alt="alt")
+                    img(src="@/assets/curso/tema1/img19.png", alt="Red de distribución.")
 
-            .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+            .col-md-6.col-lg-4.col-xl-3.mb-4.mb-xl-0
               .crd_hover_txt(data-aos="flip-left")
                 .crd_hover_txt--img
                   figure
-                    img(src="@/assets/curso/tema1/img14.svg", alt="alt")
+                    img(src="@/assets/curso/tema1/img20.png", alt="Entrada y salida de planta de agua.")
 
-            .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+            .col-md-6.col-lg-4.col-xl-3.mb-4.mb-xl-0
               .crd_hover_txt(data-aos="flip-left")
                 .crd_hover_txt--img
                   figure
-                    img(src="@/assets/curso/tema1/img15.svg", alt="alt")
+                    img(src="@/assets/curso/tema1/img21.png", alt="Puntos específicos de consumo de agua.")
 
 
           .titulo-tres.mt-4: h3 Selección de lugares para la recolección de muestras 
@@ -237,8 +237,7 @@
 
                         li.d-flex
                           i.fa-solid.fa-circle-check
-                          p.mb-0.ms-2 También pueden considerarse como puntos de muestreo las entradas y salidas de tanques de almacenamiento utilizados para el consumo humano o la preparación de alimentos. 
-
+                          p.mb-0.ms-2 También pueden considerarse como puntos de muestreo las entradas y salidas de tanques de almacenamiento utilizados para el consumo humano o la preparación de alimentos.
 
 </template>
 

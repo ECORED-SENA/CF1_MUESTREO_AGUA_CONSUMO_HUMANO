@@ -7,7 +7,7 @@
         span 5
       h1 Ensayos #[i in situ]
 
-    p.bg-2.p-5 Los ensayos in situ son mediciones que se realizan directamente en campo sobre ciertos parámetros que, debido a su naturaleza, deben registrarse de forma inmediata para garantizar resultados confiables. En el caso del agua para consumo humano, estos parámetros incluyen la temperatura, el olor, el sabor, el cloro residual libre y el pH (INS, 2011, p. 46). No obstante, para otros tipos de agua, como las residuales o superficiales, también se aplican estas mediciones, incorporando además la conductividad, la turbidez y el oxígeno disuelto. Para ello se utiliza un equipo multiparamétrico. 
+    p.bg-2.p-5 Los ensayos #[i in situ] son mediciones que se realizan directamente en campo sobre ciertos parámetros que, debido a su naturaleza, deben registrarse de forma inmediata para garantizar resultados confiables. En el caso del agua para consumo humano, estos parámetros incluyen la temperatura, el olor, el sabor, el cloro residual libre y el pH (INS, 2011, p. 46). No obstante, para otros tipos de agua, como las residuales o superficiales, también se aplican estas mediciones, incorporando además la conductividad, la turbidez y el oxígeno disuelto. Para ello se utiliza un equipo multiparamétrico. 
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="fade-left")
       .bloque-texto-g__img(
@@ -38,7 +38,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img3.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La medición de la temperatura debe realizarse #[i in situ], ya que no es posible aplicar procedimientos de preservación o almacenamiento para este parámetro. El método más adecuado consiste en introducir directamente los equipos de medición —como termómetros o sondas— en la muestra de agua o en la fuente de abastecimiento del acueducto. 
+        p.mb-0 La medición de la temperatura debe realizarse #[i in situ], ya que no es posible aplicar procedimientos de preservación o almacenamiento para este parámetro. El método más adecuado consiste en introducir directamente los equipos de medición como termómetros o sondas en la muestra de agua o en la fuente de abastecimiento del acueducto. 
     
 
     p.mt-4 Este parámetro puede determinarse de forma sencilla y precisa mediante sensores que operan con base en el cambio de resistencia de un resistor metálico. La termometría de resistencia se fundamenta en las variaciones que se presentan en la resistencia eléctrica de materiales conductores o semiconductores metálicos cuando se exponen a diferentes temperaturas. 
@@ -48,7 +48,7 @@
     .row.mt-4
       .col-lg-9
         .row.p-4.bg-12.align-items-center
-          p La conductividad eléctrica en el agua hace referencia a su capacidad para conducir corriente eléctrica, la cual depende directamente de la concentración de iones disueltos presentes, como sales, ácidos o bases. Este parámetro es un indicador clave de la calidad del agua, ya que valores elevados pueden evidenciar procesos de contaminación o una mineralización excesiva (United States Environmental Protection Agency – EPA, 2017). 
+          p La conductividad eléctrica en el agua hace referencia a su capacidad para conducir corriente eléctrica, la cual depende directamente de la concentración de iones disueltos presentes, como sales, ácidos o bases. Este parámetro es un indicador clave de la calidad del agua, ya que valores elevados pueden evidenciar procesos de contaminación o una mineralización excesiva (#[i United States Environmental Protection Agency] - EPA, 2017). 
       .col-lg-3.d-lg-block.d-none 
         figure
           img(src='@/assets/curso/tema5/img4.png', alt='', style="width: 400px").m-auto
@@ -73,7 +73,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img6.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La turbiedad para el agua potable no debe superar las 2 unidades de turbiedad según lo establecido en la resolución 2115 de 2007. Es importante que, al momento de iniciar con el proceso de desinfección, se haya removido la turbiedad, ya que de esta forma se evita la formación de partículas que pueden ser dañinas para la salud humana.   
+        p.mb-0 La turbiedad para el agua potable no debe superar las 2 unidades de turbiedad según lo establecido en la Resolución 2115 de 2007. Es importante que, al momento de iniciar con el proceso de desinfección, se haya removido la turbiedad, ya que de esta forma se evita la formación de partículas que pueden ser dañinas para la salud humana.   
 
     .titulo-tres.mt-4: h3 Cloro residual libre    
 

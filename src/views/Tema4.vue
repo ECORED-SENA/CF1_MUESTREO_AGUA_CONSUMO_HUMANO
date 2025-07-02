@@ -7,7 +7,7 @@
         span 4
       h1 Características físicas, químicas y microbiológicas del agua
     
-    p La importancia del agua es capital, pero más allá de ello lo cierto es que este elemento tiene diferentes propiedades de interés a nivel científico. A continuación, se describirán algunas de las principales características físicas y químicas del agua: 
+    p La importancia del agua es capital, pero más allá de ello, lo cierto es que este elemento tiene diferentes propiedades de interés a nivel científico. A continuación, se describirán algunas de las principales características físicas y químicas del agua: 
 
     .row.bg-8.mt-4
       .col-12
@@ -81,8 +81,8 @@
             .col-lg-6 
               .div-con-imagen
                 .bg-box-contenido.h-4
-                  p.d-block.mb-1 #[b Escherichia Coli]
-                  p.mb-0 Indicador de contaminación fecal para verificar la calidad de agua debido a su presencia inequívoca en el intestino humano (INS, 2020, p. 26)
+                  p.d-block.mb-1 #[b Escherichia coli]
+                  p.mb-0 Indicador de contaminación fecal para verificar la calidad de agua debido a su presencia inequívoca en el intestino humano (INS, 2020, p. 26).
                 .imagen-circular
                   figure.mb-0
                     img(src='@/assets/curso/tema4/img7.png', alt='')
@@ -90,7 +90,7 @@
             .col-lg-6.mt-lg-0.mt-4
               .div-con-imagen
                 .bg-box-contenido.h-4
-                  p.d-block.mb-1 #[b Coliformes Totales]
+                  p.d-block.mb-1 #[b Coliformes totales]
                   p.mb-0 Grupo amplio de bacilos Gram negativos, suelen estar presentes en casi todos los sistemas de abastecimiento que no cuentan con tratamiento (INS, 2020, p. 27).
                 .imagen-circular
                   figure.mb-0
@@ -101,7 +101,7 @@
               .div-con-imagen
                 .bg-box-contenido.h-4
                   p.d-block.mb-1 #[b Mesófilos]
-                  p.mb-0 Organismos que crecen en un rango óptimo de temperatura de 20°C a 45°C (Madigan et al, 2018).
+                  p.mb-0 Organismos que crecen en un rango óptimo de temperatura de 20 °C a 45 °C (Madigan et al, 2018).
                 .imagen-circular
                   figure.mb-0
                     img(src='@/assets/curso/tema4/img9.png', alt='')
@@ -110,7 +110,7 @@
               .div-con-imagen
                 .bg-box-contenido.h-4
                   p.d-block.mb-1 #[b Giardia]
-                  p.mb-0 Protozooflagelado que parasita el intestino de humanos y otros mamiferos. Puede generarsíntomas como diarrea, dolor abdominal, entre otros síntomas (Centers forDisease Control and Prevention, 2023) .
+                  p.mb-0 Protozoo flagelado que parasita el intestino de humanos y otros mamíferos. Puede generar síntomas como diarrea, dolor abdominal, entre otros síntomas (#[i Centers for Disease Control and Prevention], 2023).
                 .imagen-circular
                   figure.mb-0
                     img(src='@/assets/curso/tema4/img10.png', alt='')
@@ -120,19 +120,10 @@
                 .div-con-imagen
                   .bg-box-contenido.h-4
                     p.d-block.mb-1 #[b Cryptosporidium]
-                    p.mb-0 Parásitoprotozoario que se localiza en el intestino delgado de humanos y animales, genera infección que provoca diarrea acuosa severa, además de otros síntomas que pueden llevar a la desnutrición. (INS, 2018, p. 7).
+                    p.mb-0 Parásito protozoario que se localiza en el intestino delgado de humanos y animales, genera infección que provoca diarrea acuosa severa, además de otros síntomas que pueden llevar a la desnutrición. (INS, 2018, p. 7).
                   .imagen-circular
                     figure.mb-0
                       img(src='@/assets/curso/tema4/img11.png', alt='')
-
-
-
-
-
-
-
-
-
 
 </template>
 

@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="")
+          img(src="@/assets/curso/sintesis.svg", alt="La síntesis resume las temáticas que se estructuran el componente formativo, entre las cuales están los aspectos generales del plan de muestreo, los equipos y materiales de laboratorio, las buenas prácticas de laboratorio, las características físicas, químicas y microbiológicas del agua y los ensayos in situ.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

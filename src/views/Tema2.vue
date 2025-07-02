@@ -93,7 +93,7 @@
                 .row.justify-content-center.align-items-center.my-lg-4.p-4
                   .col-md-7.mb-4.mb-md-0
                     h4 Frascos de muestreo material plástico 
-                    p El uso de botellas de plástico es recomendado para la toma de muestras para determinar sustancias inorgánicas. Los recipientes de plástico opacos también son usados para tomar muestras de agua, estos por ejemplo, son usados para tomar muestra de agua para análisis microbiológico de Giardia, para lo cual se requiere recolectar 10 litros de agua. 
+                    p El uso de botellas de plástico es recomendado para la toma de muestras para determinar sustancias inorgánicas. Los recipientes de plástico opacos también son usados para tomar muestras de agua, estos por ejemplo, son usados para tomar muestras de agua para análisis microbiológico de Giardia, para lo cual se requiere recolectar 10 litros de agua. 
 
                   .col-md-5
                     figure
@@ -111,7 +111,7 @@
                 .row.justify-content-center.align-items-center.my-lg-4.p-4
                   .col-md-7.mb-4.mb-md-0
                     h4 Nevera portátil 
-                    p Este tipo de elemento permite almacenar las muestras de forma segura y manteniendo condiciones de temperatura requeridas de acuerdo al tipo de parámetro a analizar, por lo general, las muestras se deben almacenar a temperaturas inferiores a los 6°C. 
+                    p Este tipo de elemento permite almacenar las muestras de forma segura y manteniendo condiciones de temperatura requeridas de acuerdo al tipo de parámetro a analizar, por lo general, las muestras se deben almacenar a temperaturas inferiores a los 6 °C. 
 
                   .col-md-5
                     figure

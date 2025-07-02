@@ -22,8 +22,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> aplicar los fundamentos prácticos y normativos necesarios para realizar un muestreo adecuado de agua destinada al consumo humano, garantizando la representatividad y la calidad de las muestras recolectadas.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
@@ -102,7 +102,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'pHmetro con sensor de temperatura.',
+              texto: 'pH-metro con sensor de temperatura.',
               esCorrecta: true,
             },
             {

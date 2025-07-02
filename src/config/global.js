@@ -137,7 +137,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/280201242_CF01_DU.pdf',
+        download: 'downloads/93240141_CF01_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -261,7 +261,7 @@ export default {
       referencia:
         'Pakis Medical. (2020). <em>Termómetro digital KTJ TA358A para refrigeración</em>.',
       link:
-        'https://www.pakismedical.com/termometro-ktj-con-sonda-para-refrigeracion-ta358a/',
+        'https://www.pakismedical.com/producto/termometro-digital-ktj-con-sonda-para-refrigeracion/',
     },
     {
       referencia:
@@ -280,7 +280,7 @@ export default {
         },
         {
           nombre: 'Olga Constanza Bermudez Jaimes',
-          cargo: 'Responsable de Línea de Producción Huila ',
+          cargo: 'Responsable de línea de producción Huila ',
           centro: 'Dirección General ',
         },
       ],
@@ -290,13 +290,13 @@ export default {
       autores: [
         {
           nombre: 'Deya Maritza Cortes Enríquez ',
-          cargo: 'Experta Temática',
+          cargo: 'Experta temática',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
         {
           nombre: 'Paola Alexandra Moya ',
-          cargo: 'Evaluadora Instruccional ',
+          cargo: 'Evaluadora instruccional ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
@@ -319,25 +319,25 @@ export default {
         },
         {
           nombre: 'Alejandro Delgado Acosta ',
-          cargo: 'Intérprete Lenguaje de señas ',
+          cargo: 'Intérprete lenguaje de señas ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
         {
           nombre: 'Cristhian Giovanni Gordillo Segura ',
-          cargo: 'Intérprete Lenguaje de señas ',
+          cargo: 'Intérprete lenguaje de señas ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
         {
           nombre: 'Daniela Muñoz Bedoya ',
-          cargo: 'Animador y Productor Multimedia	 ',
+          cargo: 'Animador y productor multimedia	 ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
         {
           nombre: 'Andrés Felipe Guevara Ariza ',
-          cargo: 'Locución ',
+          cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
@@ -348,25 +348,25 @@ export default {
       autores: [
         {
           nombre: 'Aixa Natalia Sendoya Fernández ',
-          cargo: 'Validador de Recursos Educativos Digitales ',
+          cargo: 'Validador de recursos educativos digitales ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
         {
           nombre: 'Jaime Hernán Tejada Llano ',
-          cargo: 'Validador de Recursos Educativos Digitales ',
+          cargo: 'Validador de recursos educativos digitales ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
         {
           nombre: 'Raúl Mosquera Serrano ',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles ',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez ',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles ',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },

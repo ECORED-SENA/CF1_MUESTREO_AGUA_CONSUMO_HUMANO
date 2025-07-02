@@ -67,7 +67,7 @@
                   .row.justify-content-center.bg-11.p-4
                     figure
                       img(src="@/assets/curso/tema3/img4.svg", alt="", style="width: 76px").m-auto
-                    p.text-center.mt-2 No utilizar el sentido común
+                    p.text-center.mt-2 No utilizar el sentido común.
 
             .col-lg-4.d-none.d-lg-block
               figure
@@ -213,7 +213,7 @@
     .row.mt-4
       .col-lg-8
         .row.p-4.bg-12.align-items-center
-          p Se recomienda ampliar la información en sesiones en línea con su instructor y con el material de apoyo, pero se dejan las siguientes acciones como tips necesarios para contrarrestar los peligros químicos:  z
+          p Se recomienda ampliar la información en sesiones en línea con su instructor y con el material de apoyo, pero se dejan las siguientes acciones como tips necesarios para contrarrestar los peligros químicos:
 
           p Según la Guía Técnica Colombiana 045 de identificación de peligros y valoración de riesgos en seguridad y salud ocupacional, entre los peligros que están asociados a las actividades de muestreo y manipulación de sustancias químicas en laboratorios están los siguientes (ICONTEC, 2012):  
       .col-lg-4.d-lg-block.d-none 
@@ -265,7 +265,7 @@
                       .col-8
                         img(src="@/assets/curso/tema3/img22.svg", alt='', style="width: 90px").m-auto
                     p.text-center #[b Fenómenos naturales:]
-                    p.text-center.mb-0.p-3 Virus, bacterias, hongos, picaduras, mordeduras.
+                    p.text-center.mb-0.p-3 Sismos, inundaciones, huracanes, erupciones volcánicas, tormentas eléctricas.
 
     p.m-20 Se sugiere ampliar esta información durante las sesiones en línea con su instructor y mediante la consulta del material de apoyo disponible. A continuación, se presentan algunos consejos básicos para minimizar los riesgos asociados al manejo de sustancias químicas: 
 
